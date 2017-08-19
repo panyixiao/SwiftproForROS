@@ -11,13 +11,13 @@
 #include <sensor_msgs/JointState.h>
 #include <tf/transform_broadcaster.h>
 
-#define MATH_PI 				3.141592653589793238463
-#define MATH_TRANS  			57.2958    
-#define MATH_L1 				106.6
-#define MATH_L2 				13.2
-#define MATH_LOWER_ARM 			142.07
-#define MATH_UPPER_ARM 			158.81	
-#define MATH_UPPER_LOWER 		(MATH_UPPER_ARM / MATH_LOWER_ARM)
+#define MATH_PI 3.141592653589793238463
+#define MATH_TRANS 57.2958    
+#define MATH_L1 106.6
+#define MATH_L2  13.2
+#define MATH_LOWER_ARM 142.07
+#define MATH_UPPER_ARM  158.81	
+#define MATH_UPPER_LOWER (MATH_UPPER_ARM / MATH_LOWER_ARM)
 
 #define LOWER_ARM_MAX_ANGLE     135.6
 #define LOWER_ARM_MIN_ANGLE     0
